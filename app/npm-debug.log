@@ -1,0 +1,1160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData node-mongo-seeds
+20 silly mapToRegistry name node-mongo-seeds
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'node-mongo-seeds',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'node-mongo-seeds',
+23 silly mapToRegistry   name: 'node-mongo-seeds',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/node-mongo-seeds
+25 verbose request uri https://registry.npmjs.org/node-mongo-seeds
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 4:40:02 PM
+28 verbose request id f0ad23e2ac8cb923
+29 http request GET https://registry.npmjs.org/node-mongo-seeds
+30 http 200 https://registry.npmjs.org/node-mongo-seeds
+31 verbose headers { date: 'Sun, 13 Feb 2022 16:40:04 GMT',
+31 verbose headers   'content-type': 'application/json; charset=UTF-8',
+31 verbose headers   'transfer-encoding': 'chunked',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'cf-ray': '6dcf7f0fed1d8e1e-LHR',
+31 verbose headers   'cache-control': 'public, max-age=300',
+31 verbose headers   etag: 'W/"a70746195006a4f5c50d3bb4ece42dd4"',
+31 verbose headers   'last-modified': 'Mon, 25 Jun 2018 04:09:00 GMT',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   'cf-cache-status': 'MISS',
+31 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 verbose headers   server: 'cloudflare',
+31 verbose headers   'content-encoding': 'gzip' }
+32 silly get cb [ 200,
+32 silly get   { date: 'Sun, 13 Feb 2022 16:40:04 GMT',
+32 silly get     'content-type': 'application/json; charset=UTF-8',
+32 silly get     'transfer-encoding': 'chunked',
+32 silly get     connection: 'keep-alive',
+32 silly get     'cf-ray': '6dcf7f0fed1d8e1e-LHR',
+32 silly get     'cache-control': 'public, max-age=300',
+32 silly get     etag: 'W/"a70746195006a4f5c50d3bb4ece42dd4"',
+32 silly get     'last-modified': 'Mon, 25 Jun 2018 04:09:00 GMT',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     'cf-cache-status': 'MISS',
+32 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 silly get     server: 'cloudflare',
+32 silly get     'content-encoding': 'gzip' } ]
+33 verbose get saving node-mongo-seeds to /home/vagrant/.npm/registry.npmjs.org/node-mongo-seeds/.cache.json
+34 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+35 silly resolveWithNewModule node-mongo-seeds@3.1.0 checking installable status
+36 silly cache add args [ 'node-mongo-seeds@^3.1.0', null ]
+37 verbose cache add spec node-mongo-seeds@^3.1.0
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'node-mongo-seeds@^3.1.0',
+38 silly cache add   scope: null,
+38 silly cache add   escapedName: 'node-mongo-seeds',
+38 silly cache add   name: 'node-mongo-seeds',
+38 silly cache add   rawSpec: '^3.1.0',
+38 silly cache add   spec: '>=3.1.0 <4.0.0',
+38 silly cache add   type: 'range' }
+39 silly addNamed node-mongo-seeds@>=3.1.0 <4.0.0
+40 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for node-mongo-seeds
+41 silly addNameRange { name: 'node-mongo-seeds',
+41 silly addNameRange   range: '>=3.1.0 <4.0.0',
+41 silly addNameRange   hasData: false }
+42 silly mapToRegistry name node-mongo-seeds
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'node-mongo-seeds',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   escapedName: 'node-mongo-seeds',
+45 silly mapToRegistry   name: 'node-mongo-seeds',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/node-mongo-seeds
+47 verbose addNameRange registry:https://registry.npmjs.org/node-mongo-seeds not in flight; fetching
+48 verbose get https://registry.npmjs.org/node-mongo-seeds not expired, no request
+49 silly addNameRange number 2 { name: 'node-mongo-seeds',
+49 silly addNameRange   range: '>=3.1.0 <4.0.0',
+49 silly addNameRange   hasData: true }
+50 silly addNameRange versions [ 'node-mongo-seeds',
+50 silly addNameRange   [ '1.0.7',
+50 silly addNameRange     '1.0.8',
+50 silly addNameRange     '1.0.9',
+50 silly addNameRange     '1.0.10',
+50 silly addNameRange     '1.0.11',
+50 silly addNameRange     '1.0.12',
+50 silly addNameRange     '1.0.13',
+50 silly addNameRange     '1.0.14',
+50 silly addNameRange     '1.0.15',
+50 silly addNameRange     '1.0.16',
+50 silly addNameRange     '1.0.17',
+50 silly addNameRange     '1.0.18',
+50 silly addNameRange     '1.0.20',
+50 silly addNameRange     '1.0.21',
+50 silly addNameRange     '2.0.0',
+50 silly addNameRange     '2.0.1',
+50 silly addNameRange     '2.0.2',
+50 silly addNameRange     '2.1.0',
+50 silly addNameRange     '2.2.0',
+50 silly addNameRange     '2.2.1',
+50 silly addNameRange     '2.2.2',
+50 silly addNameRange     '2.2.3',
+50 silly addNameRange     '2.2.4',
+50 silly addNameRange     '2.2.5',
+50 silly addNameRange     '2.2.6',
+50 silly addNameRange     '2.2.7',
+50 silly addNameRange     '2.2.8',
+50 silly addNameRange     '2.2.9',
+50 silly addNameRange     '2.3.0',
+50 silly addNameRange     '2.3.1',
+50 silly addNameRange     '2.3.2',
+50 silly addNameRange     '3.0.0',
+50 silly addNameRange     '3.0.1',
+50 silly addNameRange     '3.0.2',
+50 silly addNameRange     '3.1.0' ] ]
+51 silly addNamed node-mongo-seeds@3.1.0
+52 verbose addNamed "3.1.0" is a plain semver version for node-mongo-seeds
+53 silly mapToRegistry name node-mongo-seeds
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'node-mongo-seeds',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'node-mongo-seeds',
+56 silly mapToRegistry   name: 'node-mongo-seeds',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/node-mongo-seeds
+58 verbose addRemoteTarball https://registry.npmjs.org/node-mongo-seeds/-/node-mongo-seeds-3.1.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-mongo-seeds/-/node-mongo-seeds-3.1.0.tgz',
+59 verbose addRemoteTarball   'e6325d2fd0361a781b78dfc28c821a6de8b93dc8' ]
+60 info retry fetch attempt 1 at 4:40:03 PM
+61 info attempt registry request try #1 at 4:40:03 PM
+62 http fetch GET https://registry.npmjs.org/node-mongo-seeds/-/node-mongo-seeds-3.1.0.tgz
+63 http fetch 200 https://registry.npmjs.org/node-mongo-seeds/-/node-mongo-seeds-3.1.0.tgz
+64 silly fetchAndShaCheck shasum e6325d2fd0361a781b78dfc28c821a6de8b93dc8
+65 verbose addTmpTarball /tmp/npm-3717-a582a755/registry.npmjs.org/node-mongo-seeds/-/node-mongo-seeds-3.1.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for node-mongo-seeds@3.1.0
+67 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd node-mongo-seeds@3.1.0
+69 verbose afterAdd /home/vagrant/.npm/node-mongo-seeds/3.1.0/package/package.json not in flight; writing
+70 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/vagrant/.npm/node-mongo-seeds/3.1.0/package/package.json written
+72 silly fetchNamedPackageData fsevents
+73 silly mapToRegistry name fsevents
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'fsevents',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'fsevents',
+76 silly mapToRegistry   name: 'fsevents',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+78 verbose request uri https://registry.npmjs.org/fsevents
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 4:40:04 PM
+81 verbose etag W/"897b89cb36d39b1e4f3706e4aaceba9b"
+82 verbose lastModified Fri, 05 Feb 2021 14:46:37 GMT
+83 http request GET https://registry.npmjs.org/fsevents
+84 http 304 https://registry.npmjs.org/fsevents
+85 verbose headers { date: 'Sun, 13 Feb 2022 16:40:05 GMT',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'cf-ray': '6dcf7f1d0b0e8e1e-LHR',
+85 verbose headers   age: '7',
+85 verbose headers   'cache-control': 'public, max-age=300',
+85 verbose headers   etag: '"897b89cb36d39b1e4f3706e4aaceba9b"',
+85 verbose headers   'last-modified': 'Fri, 05 Feb 2021 14:46:37 GMT',
+85 verbose headers   vary: 'Accept-Encoding',
+85 verbose headers   'cf-cache-status': 'HIT',
+85 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+85 verbose headers   server: 'cloudflare' }
+86 silly get cb [ 304,
+86 silly get   { date: 'Sun, 13 Feb 2022 16:40:05 GMT',
+86 silly get     connection: 'keep-alive',
+86 silly get     'cf-ray': '6dcf7f1d0b0e8e1e-LHR',
+86 silly get     age: '7',
+86 silly get     'cache-control': 'public, max-age=300',
+86 silly get     etag: '"897b89cb36d39b1e4f3706e4aaceba9b"',
+86 silly get     'last-modified': 'Fri, 05 Feb 2021 14:46:37 GMT',
+86 silly get     vary: 'Accept-Encoding',
+86 silly get     'cf-cache-status': 'HIT',
+86 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+86 silly get     server: 'cloudflare' } ]
+87 verbose etag https://registry.npmjs.org/fsevents from cache
+88 verbose get saving fsevents to /home/vagrant/.npm/registry.npmjs.org/fsevents/.cache.json
+89 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+90 silly resolveWithNewModule fsevents@2.3.2 checking installable status
+91 silly loadAllDepsIntoIdealTree Finishing
+92 silly loadIdealTree Finishing
+93 silly currentTree solution-code@1.0.0
+93 silly currentTree ├── @babel/code-frame@7.16.7
+93 silly currentTree ├── @babel/generator@7.17.0
+93 silly currentTree ├── @babel/helper-environment-visitor@7.16.7
+93 silly currentTree ├── @babel/helper-function-name@7.16.7
+93 silly currentTree ├── @babel/helper-get-function-arity@7.16.7
+93 silly currentTree ├── @babel/helper-hoist-variables@7.16.7
+93 silly currentTree ├── @babel/helper-split-export-declaration@7.16.7
+93 silly currentTree ├── @babel/helper-validator-identifier@7.16.7
+93 silly currentTree ├── @babel/highlight@7.16.10
+93 silly currentTree ├── @babel/parser@7.17.0
+93 silly currentTree ├── @babel/template@7.16.7
+93 silly currentTree ├─┬ @babel/traverse@7.17.0
+93 silly currentTree │ ├── debug@4.3.3
+93 silly currentTree │ └── ms@2.1.2
+93 silly currentTree ├── @babel/types@7.17.0
+93 silly currentTree ├── @types/bson@4.0.5
+93 silly currentTree ├── @types/chai@4.3.0
+93 silly currentTree ├── @types/cookiejar@2.1.2
+93 silly currentTree ├── @types/mongodb@3.6.20
+93 silly currentTree ├── @types/node@17.0.17
+93 silly currentTree ├── @types/superagent@3.8.7
+93 silly currentTree ├── @ungap/promise-all-settled@1.1.2
+93 silly currentTree ├── accepts@1.3.8
+93 silly currentTree ├── ansi-colors@3.2.3
+93 silly currentTree ├── ansi-regex@3.0.0
+93 silly currentTree ├── ansi-styles@3.2.1
+93 silly currentTree ├── anymatch@3.1.2
+93 silly currentTree ├── append-transform@1.0.0
+93 silly currentTree ├── archy@1.0.0
+93 silly currentTree ├── argparse@1.0.10
+93 silly currentTree ├── array-flatten@1.1.1
+93 silly currentTree ├── assertion-error@1.1.0
+93 silly currentTree ├── asynckit@0.4.0
+93 silly currentTree ├── balanced-match@1.0.2
+93 silly currentTree ├── binary-extensions@2.2.0
+93 silly currentTree ├── bl@2.2.1
+93 silly currentTree ├── bluebird@3.5.1
+93 silly currentTree ├── body-parser@1.19.1
+93 silly currentTree ├── brace-expansion@1.1.11
+93 silly currentTree ├── braces@3.0.2
+93 silly currentTree ├── browser-stdout@1.3.1
+93 silly currentTree ├── bson@1.1.6
+93 silly currentTree ├── buffer-shims@1.0.0
+93 silly currentTree ├── bytes@3.1.1
+93 silly currentTree ├── caching-transform@3.0.2
+93 silly currentTree ├── call-bind@1.0.2
+93 silly currentTree ├── camelcase@5.3.1
+93 silly currentTree ├── chai-http@4.3.0
+93 silly currentTree ├── chai-jquery@2.1.0
+93 silly currentTree ├── chai@3.5.0
+93 silly currentTree ├─┬ chalk@2.4.2
+93 silly currentTree │ └── supports-color@5.5.0
+93 silly currentTree ├── charenc@0.0.2
+93 silly currentTree ├── chokidar@3.5.1
+93 silly currentTree ├─┬ cliui@5.0.0
+93 silly currentTree │ ├── ansi-regex@4.1.0
+93 silly currentTree │ ├── string-width@3.1.0
+93 silly currentTree │ └── strip-ansi@5.2.0
+93 silly currentTree ├── color-convert@1.9.3
+93 silly currentTree ├── color-name@1.1.3
+93 silly currentTree ├── combined-stream@1.0.8
+93 silly currentTree ├── commander@2.20.3
+93 silly currentTree ├── commondir@1.0.1
+93 silly currentTree ├── component-emitter@1.3.0
+93 silly currentTree ├── concat-map@0.0.1
+93 silly currentTree ├── content-disposition@0.5.4
+93 silly currentTree ├── content-type@1.0.4
+93 silly currentTree ├─┬ convert-source-map@1.8.0
+93 silly currentTree │ └── safe-buffer@5.1.2
+93 silly currentTree ├── cookie-signature@1.0.6
+93 silly currentTree ├── cookie@0.4.1
+93 silly currentTree ├── cookiejar@2.1.3
+93 silly currentTree ├── core-util-is@1.0.3
+93 silly currentTree ├── cp-file@6.2.0
+93 silly currentTree ├── cross-spawn@4.0.2
+93 silly currentTree ├── crypt@0.0.2
+93 silly currentTree ├── debug@2.6.9
+93 silly currentTree ├── decamelize@1.2.0
+93 silly currentTree ├─┬ deep-eql@0.1.3
+93 silly currentTree │ └── type-detect@0.1.1
+93 silly currentTree ├── default-require-extensions@2.0.0
+93 silly currentTree ├── define-properties@1.1.3
+93 silly currentTree ├── delayed-stream@1.0.0
+93 silly currentTree ├── denque@1.5.1
+93 silly currentTree ├── depd@1.1.2
+93 silly currentTree ├── destroy@1.0.4
+93 silly currentTree ├── diff@3.5.0
+93 silly currentTree ├── ee-first@1.1.1
+93 silly currentTree ├── ejs@2.7.4
+93 silly currentTree ├── emoji-regex@7.0.3
+93 silly currentTree ├── encodeurl@1.0.2
+93 silly currentTree ├── errno@0.1.8
+93 silly currentTree ├── error-ex@1.3.2
+93 silly currentTree ├─┬ es-abstract@1.19.1
+93 silly currentTree │ └── object.assign@4.1.2
+93 silly currentTree ├── es-to-primitive@1.2.1
+93 silly currentTree ├── es6-error@4.1.1
+93 silly currentTree ├── es6-promise@3.2.1
+93 silly currentTree ├── escalade@3.1.1
+93 silly currentTree ├── escape-html@1.0.3
+93 silly currentTree ├── escape-string-regexp@1.0.5
+93 silly currentTree ├── esprima@4.0.1
+93 silly currentTree ├── etag@1.8.1
+93 silly currentTree ├── express@4.17.2
+93 silly currentTree ├── extend@3.0.2
+93 silly currentTree ├── faker@4.1.0
+93 silly currentTree ├── fill-range@7.0.1
+93 silly currentTree ├── finalhandler@1.1.2
+93 silly currentTree ├── find-cache-dir@2.1.0
+93 silly currentTree ├── find-up@3.0.0
+93 silly currentTree ├── flat@4.1.1
+93 silly currentTree ├── foreground-child@1.5.6
+93 silly currentTree ├── form-data@2.5.1
+93 silly currentTree ├── formidable@1.2.6
+93 silly currentTree ├── forwarded@0.2.0
+93 silly currentTree ├── fresh@0.5.2
+93 silly currentTree ├── fs.realpath@1.0.0
+93 silly currentTree ├── function-bind@1.1.1
+93 silly currentTree ├── get-caller-file@2.0.5
+93 silly currentTree ├── get-intrinsic@1.1.1
+93 silly currentTree ├── get-symbol-description@1.0.0
+93 silly currentTree ├── glob-parent@5.1.2
+93 silly currentTree ├── glob@7.1.3
+93 silly currentTree ├── globals@11.12.0
+93 silly currentTree ├── graceful-fs@4.2.9
+93 silly currentTree ├── growl@1.10.5
+93 silly currentTree ├── has-bigints@1.0.1
+93 silly currentTree ├── has-flag@3.0.0
+93 silly currentTree ├── has-symbols@1.0.2
+93 silly currentTree ├── has-tostringtag@1.0.0
+93 silly currentTree ├── has@1.0.3
+93 silly currentTree ├── hasha@3.0.0
+93 silly currentTree ├── he@1.2.0
+93 silly currentTree ├── hosted-git-info@2.8.9
+93 silly currentTree ├── html-escaper@2.0.2
+93 silly currentTree ├── http-errors@1.8.1
+93 silly currentTree ├── iconv-lite@0.4.24
+93 silly currentTree ├── imurmurhash@0.1.4
+93 silly currentTree ├── inflight@1.0.6
+93 silly currentTree ├── inherits@2.0.4
+93 silly currentTree ├── internal-slot@1.0.3
+93 silly currentTree ├── interpret@1.4.0
+93 silly currentTree ├── ip-regex@2.1.0
+93 silly currentTree ├── ipaddr.js@1.9.1
+93 silly currentTree ├── is-arrayish@0.2.1
+93 silly currentTree ├── is-bigint@1.0.4
+93 silly currentTree ├── is-binary-path@2.1.0
+93 silly currentTree ├── is-boolean-object@1.1.2
+93 silly currentTree ├── is-buffer@2.0.5
+93 silly currentTree ├── is-callable@1.2.4
+93 silly currentTree ├── is-core-module@2.8.1
+93 silly currentTree ├── is-date-object@1.0.5
+93 silly currentTree ├── is-extglob@2.1.1
+93 silly currentTree ├── is-fullwidth-code-point@2.0.0
+93 silly currentTree ├── is-glob@4.0.3
+93 silly currentTree ├── is-ip@2.0.0
+93 silly currentTree ├── is-negative-zero@2.0.2
+93 silly currentTree ├── is-number-object@1.0.6
+93 silly currentTree ├── is-number@7.0.0
+93 silly currentTree ├── is-plain-obj@2.1.0
+93 silly currentTree ├── is-regex@1.1.4
+93 silly currentTree ├── is-shared-array-buffer@1.0.1
+93 silly currentTree ├── is-stream@1.1.0
+93 silly currentTree ├── is-string@1.0.7
+93 silly currentTree ├── is-symbol@1.0.4
+93 silly currentTree ├── is-weakref@1.0.2
+93 silly currentTree ├── isarray@1.0.0
+93 silly currentTree ├── isexe@2.0.0
+93 silly currentTree ├── istanbul-lib-coverage@2.0.5
+93 silly currentTree ├── istanbul-lib-hook@2.0.7
+93 silly currentTree ├─┬ istanbul-lib-instrument@3.3.0
+93 silly currentTree │ └── semver@6.3.0
+93 silly currentTree ├─┬ istanbul-lib-report@2.0.8
+93 silly currentTree │ └── supports-color@6.1.0
+93 silly currentTree ├─┬ istanbul-lib-source-maps@3.0.6
+93 silly currentTree │ ├── debug@4.3.3
+93 silly currentTree │ ├── ms@2.1.2
+93 silly currentTree │ └── source-map@0.6.1
+93 silly currentTree ├── istanbul-reports@2.2.7
+93 silly currentTree ├─┬ jenkins-mocha@8.0.0
+93 silly currentTree │ ├── debug@3.2.6
+93 silly currentTree │ ├── mocha@6.2.3
+93 silly currentTree │ └── ms@2.1.1
+93 silly currentTree ├── js-tokens@4.0.0
+93 silly currentTree ├── js-yaml@3.13.1
+93 silly currentTree ├── jsesc@2.5.2
+93 silly currentTree ├── json-parse-better-errors@1.0.2
+93 silly currentTree ├─┬ json2mongo@2.0.0
+93 silly currentTree │ ├── mongodb@2.2.36
+93 silly currentTree │ ├── process-nextick-args@1.0.7
+93 silly currentTree │ ├── readable-stream@2.2.7
+93 silly currentTree │ ├── safe-buffer@5.1.2
+93 silly currentTree │ └── string_decoder@1.0.3
+93 silly currentTree ├── kareem@2.3.2
+93 silly currentTree ├─┬ load-json-file@4.0.0
+93 silly currentTree │ └── pify@3.0.0
+93 silly currentTree ├── locate-path@3.0.0
+93 silly currentTree ├── lodash.flattendeep@4.4.0
+93 silly currentTree ├── lodash@4.17.21
+93 silly currentTree ├── log-symbols@2.2.0
+93 silly currentTree ├── lru-cache@4.1.5
+93 silly currentTree ├── make-dir@2.1.0
+93 silly currentTree ├─┬ md5@2.3.0
+93 silly currentTree │ └── is-buffer@1.1.6
+93 silly currentTree ├── media-typer@0.3.0
+93 silly currentTree ├── memory-pager@1.5.0
+93 silly currentTree ├── merge-descriptors@1.0.1
+93 silly currentTree ├─┬ merge-source-map@1.1.0
+93 silly currentTree │ └── source-map@0.6.1
+93 silly currentTree ├── methods@1.1.2
+93 silly currentTree ├── mime-db@1.51.0
+93 silly currentTree ├── mime-types@2.1.34
+93 silly currentTree ├── mime@1.6.0
+93 silly currentTree ├── minimatch@3.0.4
+93 silly currentTree ├── minimist@1.2.5
+93 silly currentTree ├── mkdirp@0.5.4
+93 silly currentTree ├── mocha-junit-reporter@1.23.3
+93 silly currentTree ├─┬ mocha@8.4.0
+93 silly currentTree │ ├── ansi-colors@4.1.1
+93 silly currentTree │ ├── ansi-regex@5.0.1
+93 silly currentTree │ ├── ansi-styles@4.3.0
+93 silly currentTree │ ├── argparse@2.0.1
+93 silly currentTree │ ├── camelcase@6.3.0
+93 silly currentTree │ ├─┬ chalk@4.1.2
+93 silly currentTree │ │ └── supports-color@7.2.0
+93 silly currentTree │ ├── cliui@7.0.4
+93 silly currentTree │ ├── color-convert@2.0.1
+93 silly currentTree │ ├── color-name@1.1.4
+93 silly currentTree │ ├─┬ debug@4.3.1
+93 silly currentTree │ │ └── ms@2.1.2
+93 silly currentTree │ ├── decamelize@4.0.0
+93 silly currentTree │ ├── diff@5.0.0
+93 silly currentTree │ ├── emoji-regex@8.0.0
+93 silly currentTree │ ├── escape-string-regexp@4.0.0
+93 silly currentTree │ ├── find-up@5.0.0
+93 silly currentTree │ ├── flat@5.0.2
+93 silly currentTree │ ├── glob@7.1.6
+93 silly currentTree │ ├── has-flag@4.0.0
+93 silly currentTree │ ├── is-fullwidth-code-point@3.0.0
+93 silly currentTree │ ├── js-yaml@4.0.0
+93 silly currentTree │ ├── locate-path@6.0.0
+93 silly currentTree │ ├── log-symbols@4.0.0
+93 silly currentTree │ ├── ms@2.1.3
+93 silly currentTree │ ├── p-limit@3.1.0
+93 silly currentTree │ ├── p-locate@5.0.0
+93 silly currentTree │ ├── path-exists@4.0.0
+93 silly currentTree │ ├── string-width@4.2.3
+93 silly currentTree │ ├── strip-ansi@6.0.1
+93 silly currentTree │ ├── strip-json-comments@3.1.1
+93 silly currentTree │ ├── supports-color@8.1.1
+93 silly currentTree │ ├── which@2.0.2
+93 silly currentTree │ ├── wrap-ansi@7.0.0
+93 silly currentTree │ ├── y18n@5.0.8
+93 silly currentTree │ ├── yargs-parser@20.2.4
+93 silly currentTree │ ├── yargs-unparser@2.0.0
+93 silly currentTree │ └── yargs@16.2.0
+93 silly currentTree ├─┬ mongodb-core@2.1.20
+93 silly currentTree │ └── bson@1.0.9
+93 silly currentTree ├── mongodb@3.7.3
+93 silly currentTree ├── mongoose-legacy-pluralize@1.0.2
+93 silly currentTree ├─┬ mongoose@5.13.14
+93 silly currentTree │ ├── ms@2.1.2
+93 silly currentTree │ └── optional-require@1.0.3
+93 silly currentTree ├── mpath@0.8.4
+93 silly currentTree ├─┬ mquery@3.2.5
+93 silly currentTree │ ├── debug@3.1.0
+93 silly currentTree │ └── safe-buffer@5.1.2
+93 silly currentTree ├── ms@2.0.0
+93 silly currentTree ├── nanoid@3.1.20
+93 silly currentTree ├── negotiator@0.6.3
+93 silly currentTree ├── nested-error-stacks@2.1.0
+93 silly currentTree ├── node-environment-flags@1.0.5
+93 silly currentTree ├── normalize-package-data@2.5.0
+93 silly currentTree ├── normalize-path@3.0.0
+93 silly currentTree ├── npm-path@2.0.4
+93 silly currentTree ├── npm-which@3.0.1
+93 silly currentTree ├── nyc@14.1.1
+93 silly currentTree ├── object-inspect@1.12.0
+93 silly currentTree ├── object-keys@1.1.1
+93 silly currentTree ├── object.assign@4.1.0
+93 silly currentTree ├── object.getownpropertydescriptors@2.1.3
+93 silly currentTree ├── on-finished@2.3.0
+93 silly currentTree ├── once@1.4.0
+93 silly currentTree ├── optional-require@1.1.8
+93 silly currentTree ├── os-homedir@1.0.2
+93 silly currentTree ├── p-limit@2.3.0
+93 silly currentTree ├── p-locate@3.0.0
+93 silly currentTree ├── p-try@2.2.0
+93 silly currentTree ├── package-hash@3.0.0
+93 silly currentTree ├── parse-json@4.0.0
+93 silly currentTree ├── parseurl@1.3.3
+93 silly currentTree ├── path-exists@3.0.0
+93 silly currentTree ├── path-is-absolute@1.0.1
+93 silly currentTree ├── path-parse@1.0.7
+93 silly currentTree ├── path-to-regexp@0.1.7
+93 silly currentTree ├─┬ path-type@3.0.0
+93 silly currentTree │ └── pify@3.0.0
+93 silly currentTree ├── picomatch@2.3.1
+93 silly currentTree ├── pify@4.0.1
+93 silly currentTree ├── pkg-dir@3.0.0
+93 silly currentTree ├── process-nextick-args@2.0.1
+93 silly currentTree ├── proxy-addr@2.0.7
+93 silly currentTree ├── prr@1.0.1
+93 silly currentTree ├── pseudomap@1.0.2
+93 silly currentTree ├── qs@6.9.6
+93 silly currentTree ├── randombytes@2.1.0
+93 silly currentTree ├── range-parser@1.2.1
+93 silly currentTree ├── raw-body@2.4.2
+93 silly currentTree ├── read-pkg-up@4.0.0
+93 silly currentTree ├── read-pkg@3.0.0
+93 silly currentTree ├─┬ readable-stream@2.3.7
+93 silly currentTree │ └── safe-buffer@5.1.2
+93 silly currentTree ├── readdirp@3.5.0
+93 silly currentTree ├── rechoir@0.6.2
+93 silly currentTree ├── regexp-clone@1.0.0
+93 silly currentTree ├── release-zalgo@1.0.0
+93 silly currentTree ├─┬ require_optional@1.0.1
+93 silly currentTree │ └── resolve-from@2.0.0
+93 silly currentTree ├── require-at@1.0.6
+93 silly currentTree ├── require-directory@2.1.1
+93 silly currentTree ├── require-main-filename@2.0.0
+93 silly currentTree ├── resolve-from@4.0.0
+93 silly currentTree ├── resolve@1.22.0
+93 silly currentTree ├── rimraf@2.7.1
+93 silly currentTree ├── safe-buffer@5.2.1
+93 silly currentTree ├── safer-buffer@2.1.2
+93 silly currentTree ├── saslprep@1.0.3
+93 silly currentTree ├── semver@5.7.1
+93 silly currentTree ├─┬ send@0.17.2
+93 silly currentTree │ └── ms@2.1.3
+93 silly currentTree ├── serialize-javascript@5.0.1
+93 silly currentTree ├── serve-static@1.14.2
+93 silly currentTree ├── set-blocking@2.0.0
+93 silly currentTree ├── setprototypeof@1.2.0
+93 silly currentTree ├── shell-escape@0.2.0
+93 silly currentTree ├── shelljs@0.8.5
+93 silly currentTree ├── side-channel@1.0.4
+93 silly currentTree ├── sift@13.5.2
+93 silly currentTree ├── signal-exit@3.0.7
+93 silly currentTree ├── sliced@1.0.1
+93 silly currentTree ├── source-map@0.5.7
+93 silly currentTree ├── sparse-bitfield@3.0.3
+93 silly currentTree ├── spawn-wrap@1.4.3
+93 silly currentTree ├── spdx-correct@3.1.1
+93 silly currentTree ├── spdx-exceptions@2.3.0
+93 silly currentTree ├── spdx-expression-parse@3.0.1
+93 silly currentTree ├── spdx-license-ids@3.0.11
+93 silly currentTree ├── spec-xunit-file@0.0.1-3
+93 silly currentTree ├── sprintf-js@1.0.3
+93 silly currentTree ├── statuses@1.5.0
+93 silly currentTree ├─┬ string_decoder@1.1.1
+93 silly currentTree │ └── safe-buffer@5.1.2
+93 silly currentTree ├── string-width@2.1.1
+93 silly currentTree ├── string.prototype.trimend@1.0.4
+93 silly currentTree ├── string.prototype.trimstart@1.0.4
+93 silly currentTree ├── strip-ansi@4.0.0
+93 silly currentTree ├── strip-bom@3.0.0
+93 silly currentTree ├── strip-json-comments@2.0.1
+93 silly currentTree ├─┬ superagent@3.8.3
+93 silly currentTree │ ├── debug@3.2.7
+93 silly currentTree │ └── ms@2.1.3
+93 silly currentTree ├── supports-color@6.0.0
+93 silly currentTree ├── supports-preserve-symlinks-flag@1.0.0
+93 silly currentTree ├── test-exclude@5.2.3
+93 silly currentTree ├── to-fast-properties@2.0.0
+93 silly currentTree ├── to-regex-range@5.0.1
+93 silly currentTree ├── toidentifier@1.0.1
+93 silly currentTree ├── type-detect@1.0.0
+93 silly currentTree ├── type-is@1.6.18
+93 silly currentTree ├── unbox-primitive@1.0.1
+93 silly currentTree ├── unpipe@1.0.0
+93 silly currentTree ├── util-deprecate@1.0.2
+93 silly currentTree ├── utils-merge@1.0.1
+93 silly currentTree ├── uuid@3.4.0
+93 silly currentTree ├── validate-npm-package-license@3.0.4
+93 silly currentTree ├── vary@1.1.2
+93 silly currentTree ├── which-boxed-primitive@1.0.2
+93 silly currentTree ├── which-module@2.0.0
+93 silly currentTree ├── which@1.3.1
+93 silly currentTree ├── wide-align@1.1.3
+93 silly currentTree ├── workerpool@6.1.0
+93 silly currentTree ├─┬ wrap-ansi@5.1.0
+93 silly currentTree │ ├── ansi-regex@4.1.0
+93 silly currentTree │ ├── string-width@3.1.0
+93 silly currentTree │ └── strip-ansi@5.2.0
+93 silly currentTree ├── wrappy@1.0.2
+93 silly currentTree ├── write-file-atomic@2.4.3
+93 silly currentTree ├── xml@1.0.1
+93 silly currentTree ├── y18n@4.0.3
+93 silly currentTree ├── yallist@2.1.2
+93 silly currentTree ├── yargs-parser@13.1.2
+93 silly currentTree ├── yargs-unparser@1.6.0
+93 silly currentTree ├─┬ yargs@13.3.2
+93 silly currentTree │ ├── ansi-regex@4.1.0
+93 silly currentTree │ ├── string-width@3.1.0
+93 silly currentTree │ └── strip-ansi@5.2.0
+93 silly currentTree └── yocto-queue@0.1.0
+94 silly idealTree solution-code@1.0.0
+94 silly idealTree ├── @babel/code-frame@7.16.7
+94 silly idealTree ├── @babel/generator@7.17.0
+94 silly idealTree ├── @babel/helper-environment-visitor@7.16.7
+94 silly idealTree ├── @babel/helper-function-name@7.16.7
+94 silly idealTree ├── @babel/helper-get-function-arity@7.16.7
+94 silly idealTree ├── @babel/helper-hoist-variables@7.16.7
+94 silly idealTree ├── @babel/helper-split-export-declaration@7.16.7
+94 silly idealTree ├── @babel/helper-validator-identifier@7.16.7
+94 silly idealTree ├── @babel/highlight@7.16.10
+94 silly idealTree ├── @babel/parser@7.17.0
+94 silly idealTree ├── @babel/template@7.16.7
+94 silly idealTree ├─┬ @babel/traverse@7.17.0
+94 silly idealTree │ ├── debug@4.3.3
+94 silly idealTree │ └── ms@2.1.2
+94 silly idealTree ├── @babel/types@7.17.0
+94 silly idealTree ├── @types/bson@4.0.5
+94 silly idealTree ├── @types/chai@4.3.0
+94 silly idealTree ├── @types/cookiejar@2.1.2
+94 silly idealTree ├── @types/mongodb@3.6.20
+94 silly idealTree ├── @types/node@17.0.17
+94 silly idealTree ├── @types/superagent@3.8.7
+94 silly idealTree ├── @ungap/promise-all-settled@1.1.2
+94 silly idealTree ├── accepts@1.3.8
+94 silly idealTree ├── ansi-colors@3.2.3
+94 silly idealTree ├── ansi-regex@3.0.0
+94 silly idealTree ├── ansi-styles@3.2.1
+94 silly idealTree ├── anymatch@3.1.2
+94 silly idealTree ├── append-transform@1.0.0
+94 silly idealTree ├── archy@1.0.0
+94 silly idealTree ├── argparse@1.0.10
+94 silly idealTree ├── array-flatten@1.1.1
+94 silly idealTree ├── assertion-error@1.1.0
+94 silly idealTree ├── asynckit@0.4.0
+94 silly idealTree ├── balanced-match@1.0.2
+94 silly idealTree ├── binary-extensions@2.2.0
+94 silly idealTree ├── bl@2.2.1
+94 silly idealTree ├── bluebird@3.5.1
+94 silly idealTree ├── body-parser@1.19.1
+94 silly idealTree ├── brace-expansion@1.1.11
+94 silly idealTree ├── braces@3.0.2
+94 silly idealTree ├── browser-stdout@1.3.1
+94 silly idealTree ├── bson@1.1.6
+94 silly idealTree ├── buffer-shims@1.0.0
+94 silly idealTree ├── bytes@3.1.1
+94 silly idealTree ├── caching-transform@3.0.2
+94 silly idealTree ├── call-bind@1.0.2
+94 silly idealTree ├── camelcase@5.3.1
+94 silly idealTree ├── chai-http@4.3.0
+94 silly idealTree ├── chai-jquery@2.1.0
+94 silly idealTree ├── chai@3.5.0
+94 silly idealTree ├─┬ chalk@2.4.2
+94 silly idealTree │ └── supports-color@5.5.0
+94 silly idealTree ├── charenc@0.0.2
+94 silly idealTree ├── chokidar@3.5.1
+94 silly idealTree ├─┬ cliui@5.0.0
+94 silly idealTree │ ├── ansi-regex@4.1.0
+94 silly idealTree │ ├── string-width@3.1.0
+94 silly idealTree │ └── strip-ansi@5.2.0
+94 silly idealTree ├── color-convert@1.9.3
+94 silly idealTree ├── color-name@1.1.3
+94 silly idealTree ├── combined-stream@1.0.8
+94 silly idealTree ├── commander@2.20.3
+94 silly idealTree ├── commondir@1.0.1
+94 silly idealTree ├── component-emitter@1.3.0
+94 silly idealTree ├── concat-map@0.0.1
+94 silly idealTree ├── content-disposition@0.5.4
+94 silly idealTree ├── content-type@1.0.4
+94 silly idealTree ├─┬ convert-source-map@1.8.0
+94 silly idealTree │ └── safe-buffer@5.1.2
+94 silly idealTree ├── cookie-signature@1.0.6
+94 silly idealTree ├── cookie@0.4.1
+94 silly idealTree ├── cookiejar@2.1.3
+94 silly idealTree ├── core-util-is@1.0.3
+94 silly idealTree ├── cp-file@6.2.0
+94 silly idealTree ├── cross-spawn@4.0.2
+94 silly idealTree ├── crypt@0.0.2
+94 silly idealTree ├── debug@2.6.9
+94 silly idealTree ├── decamelize@1.2.0
+94 silly idealTree ├─┬ deep-eql@0.1.3
+94 silly idealTree │ └── type-detect@0.1.1
+94 silly idealTree ├── default-require-extensions@2.0.0
+94 silly idealTree ├── define-properties@1.1.3
+94 silly idealTree ├── delayed-stream@1.0.0
+94 silly idealTree ├── denque@1.5.1
+94 silly idealTree ├── depd@1.1.2
+94 silly idealTree ├── destroy@1.0.4
+94 silly idealTree ├── diff@3.5.0
+94 silly idealTree ├── ee-first@1.1.1
+94 silly idealTree ├── ejs@2.7.4
+94 silly idealTree ├── emoji-regex@7.0.3
+94 silly idealTree ├── encodeurl@1.0.2
+94 silly idealTree ├── errno@0.1.8
+94 silly idealTree ├── error-ex@1.3.2
+94 silly idealTree ├─┬ es-abstract@1.19.1
+94 silly idealTree │ └── object.assign@4.1.2
+94 silly idealTree ├── es-to-primitive@1.2.1
+94 silly idealTree ├── es6-error@4.1.1
+94 silly idealTree ├── es6-promise@3.2.1
+94 silly idealTree ├── escalade@3.1.1
+94 silly idealTree ├── escape-html@1.0.3
+94 silly idealTree ├── escape-string-regexp@1.0.5
+94 silly idealTree ├── esprima@4.0.1
+94 silly idealTree ├── etag@1.8.1
+94 silly idealTree ├── express@4.17.2
+94 silly idealTree ├── extend@3.0.2
+94 silly idealTree ├── faker@4.1.0
+94 silly idealTree ├── fill-range@7.0.1
+94 silly idealTree ├── finalhandler@1.1.2
+94 silly idealTree ├── find-cache-dir@2.1.0
+94 silly idealTree ├── find-up@3.0.0
+94 silly idealTree ├── flat@4.1.1
+94 silly idealTree ├── foreground-child@1.5.6
+94 silly idealTree ├── form-data@2.5.1
+94 silly idealTree ├── formidable@1.2.6
+94 silly idealTree ├── forwarded@0.2.0
+94 silly idealTree ├── fresh@0.5.2
+94 silly idealTree ├── fs.realpath@1.0.0
+94 silly idealTree ├── function-bind@1.1.1
+94 silly idealTree ├── get-caller-file@2.0.5
+94 silly idealTree ├── get-intrinsic@1.1.1
+94 silly idealTree ├── get-symbol-description@1.0.0
+94 silly idealTree ├── glob-parent@5.1.2
+94 silly idealTree ├── glob@7.1.3
+94 silly idealTree ├── globals@11.12.0
+94 silly idealTree ├── graceful-fs@4.2.9
+94 silly idealTree ├── growl@1.10.5
+94 silly idealTree ├── has-bigints@1.0.1
+94 silly idealTree ├── has-flag@3.0.0
+94 silly idealTree ├── has-symbols@1.0.2
+94 silly idealTree ├── has-tostringtag@1.0.0
+94 silly idealTree ├── has@1.0.3
+94 silly idealTree ├── hasha@3.0.0
+94 silly idealTree ├── he@1.2.0
+94 silly idealTree ├── hosted-git-info@2.8.9
+94 silly idealTree ├── html-escaper@2.0.2
+94 silly idealTree ├── http-errors@1.8.1
+94 silly idealTree ├── iconv-lite@0.4.24
+94 silly idealTree ├── imurmurhash@0.1.4
+94 silly idealTree ├── inflight@1.0.6
+94 silly idealTree ├── inherits@2.0.4
+94 silly idealTree ├── internal-slot@1.0.3
+94 silly idealTree ├── interpret@1.4.0
+94 silly idealTree ├── ip-regex@2.1.0
+94 silly idealTree ├── ipaddr.js@1.9.1
+94 silly idealTree ├── is-arrayish@0.2.1
+94 silly idealTree ├── is-bigint@1.0.4
+94 silly idealTree ├── is-binary-path@2.1.0
+94 silly idealTree ├── is-boolean-object@1.1.2
+94 silly idealTree ├── is-buffer@2.0.5
+94 silly idealTree ├── is-callable@1.2.4
+94 silly idealTree ├── is-core-module@2.8.1
+94 silly idealTree ├── is-date-object@1.0.5
+94 silly idealTree ├── is-extglob@2.1.1
+94 silly idealTree ├── is-fullwidth-code-point@2.0.0
+94 silly idealTree ├── is-glob@4.0.3
+94 silly idealTree ├── is-ip@2.0.0
+94 silly idealTree ├── is-negative-zero@2.0.2
+94 silly idealTree ├── is-number-object@1.0.6
+94 silly idealTree ├── is-number@7.0.0
+94 silly idealTree ├── is-plain-obj@2.1.0
+94 silly idealTree ├── is-regex@1.1.4
+94 silly idealTree ├── is-shared-array-buffer@1.0.1
+94 silly idealTree ├── is-stream@1.1.0
+94 silly idealTree ├── is-string@1.0.7
+94 silly idealTree ├── is-symbol@1.0.4
+94 silly idealTree ├── is-weakref@1.0.2
+94 silly idealTree ├── isarray@1.0.0
+94 silly idealTree ├── isexe@2.0.0
+94 silly idealTree ├── istanbul-lib-coverage@2.0.5
+94 silly idealTree ├── istanbul-lib-hook@2.0.7
+94 silly idealTree ├─┬ istanbul-lib-instrument@3.3.0
+94 silly idealTree │ └── semver@6.3.0
+94 silly idealTree ├─┬ istanbul-lib-report@2.0.8
+94 silly idealTree │ └── supports-color@6.1.0
+94 silly idealTree ├─┬ istanbul-lib-source-maps@3.0.6
+94 silly idealTree │ ├── debug@4.3.3
+94 silly idealTree │ ├── ms@2.1.2
+94 silly idealTree │ └── source-map@0.6.1
+94 silly idealTree ├── istanbul-reports@2.2.7
+94 silly idealTree ├─┬ jenkins-mocha@8.0.0
+94 silly idealTree │ ├── debug@3.2.6
+94 silly idealTree │ ├── mocha@6.2.3
+94 silly idealTree │ └── ms@2.1.1
+94 silly idealTree ├── js-tokens@4.0.0
+94 silly idealTree ├── js-yaml@3.13.1
+94 silly idealTree ├── jsesc@2.5.2
+94 silly idealTree ├── json-parse-better-errors@1.0.2
+94 silly idealTree ├─┬ json2mongo@2.0.0
+94 silly idealTree │ ├── mongodb@2.2.36
+94 silly idealTree │ ├── process-nextick-args@1.0.7
+94 silly idealTree │ ├── readable-stream@2.2.7
+94 silly idealTree │ ├── safe-buffer@5.1.2
+94 silly idealTree │ └── string_decoder@1.0.3
+94 silly idealTree ├── kareem@2.3.2
+94 silly idealTree ├─┬ load-json-file@4.0.0
+94 silly idealTree │ └── pify@3.0.0
+94 silly idealTree ├── locate-path@3.0.0
+94 silly idealTree ├── lodash.flattendeep@4.4.0
+94 silly idealTree ├── lodash@4.17.21
+94 silly idealTree ├── log-symbols@2.2.0
+94 silly idealTree ├── lru-cache@4.1.5
+94 silly idealTree ├── make-dir@2.1.0
+94 silly idealTree ├─┬ md5@2.3.0
+94 silly idealTree │ └── is-buffer@1.1.6
+94 silly idealTree ├── media-typer@0.3.0
+94 silly idealTree ├── memory-pager@1.5.0
+94 silly idealTree ├── merge-descriptors@1.0.1
+94 silly idealTree ├─┬ merge-source-map@1.1.0
+94 silly idealTree │ └── source-map@0.6.1
+94 silly idealTree ├── methods@1.1.2
+94 silly idealTree ├── mime-db@1.51.0
+94 silly idealTree ├── mime-types@2.1.34
+94 silly idealTree ├── mime@1.6.0
+94 silly idealTree ├── minimatch@3.0.4
+94 silly idealTree ├── minimist@1.2.5
+94 silly idealTree ├── mkdirp@0.5.4
+94 silly idealTree ├── mocha-junit-reporter@1.23.3
+94 silly idealTree ├─┬ mocha@8.4.0
+94 silly idealTree │ ├── ansi-colors@4.1.1
+94 silly idealTree │ ├── ansi-regex@5.0.1
+94 silly idealTree │ ├── ansi-styles@4.3.0
+94 silly idealTree │ ├── argparse@2.0.1
+94 silly idealTree │ ├── camelcase@6.3.0
+94 silly idealTree │ ├─┬ chalk@4.1.2
+94 silly idealTree │ │ └── supports-color@7.2.0
+94 silly idealTree │ ├── cliui@7.0.4
+94 silly idealTree │ ├── color-convert@2.0.1
+94 silly idealTree │ ├── color-name@1.1.4
+94 silly idealTree │ ├─┬ debug@4.3.1
+94 silly idealTree │ │ └── ms@2.1.2
+94 silly idealTree │ ├── decamelize@4.0.0
+94 silly idealTree │ ├── diff@5.0.0
+94 silly idealTree │ ├── emoji-regex@8.0.0
+94 silly idealTree │ ├── escape-string-regexp@4.0.0
+94 silly idealTree │ ├── find-up@5.0.0
+94 silly idealTree │ ├── flat@5.0.2
+94 silly idealTree │ ├── glob@7.1.6
+94 silly idealTree │ ├── has-flag@4.0.0
+94 silly idealTree │ ├── is-fullwidth-code-point@3.0.0
+94 silly idealTree │ ├── js-yaml@4.0.0
+94 silly idealTree │ ├── locate-path@6.0.0
+94 silly idealTree │ ├── log-symbols@4.0.0
+94 silly idealTree │ ├── ms@2.1.3
+94 silly idealTree │ ├── p-limit@3.1.0
+94 silly idealTree │ ├── p-locate@5.0.0
+94 silly idealTree │ ├── path-exists@4.0.0
+94 silly idealTree │ ├── string-width@4.2.3
+94 silly idealTree │ ├── strip-ansi@6.0.1
+94 silly idealTree │ ├── strip-json-comments@3.1.1
+94 silly idealTree │ ├── supports-color@8.1.1
+94 silly idealTree │ ├── which@2.0.2
+94 silly idealTree │ ├── wrap-ansi@7.0.0
+94 silly idealTree │ ├── y18n@5.0.8
+94 silly idealTree │ ├── yargs-parser@20.2.4
+94 silly idealTree │ ├── yargs-unparser@2.0.0
+94 silly idealTree │ └── yargs@16.2.0
+94 silly idealTree ├─┬ mongodb-core@2.1.20
+94 silly idealTree │ └── bson@1.0.9
+94 silly idealTree ├── mongodb@3.7.3
+94 silly idealTree ├── mongoose-legacy-pluralize@1.0.2
+94 silly idealTree ├─┬ mongoose@5.13.14
+94 silly idealTree │ ├── ms@2.1.2
+94 silly idealTree │ └── optional-require@1.0.3
+94 silly idealTree ├── mpath@0.8.4
+94 silly idealTree ├─┬ mquery@3.2.5
+94 silly idealTree │ ├── debug@3.1.0
+94 silly idealTree │ └── safe-buffer@5.1.2
+94 silly idealTree ├── ms@2.0.0
+94 silly idealTree ├── nanoid@3.1.20
+94 silly idealTree ├── negotiator@0.6.3
+94 silly idealTree ├── nested-error-stacks@2.1.0
+94 silly idealTree ├── node-environment-flags@1.0.5
+94 silly idealTree ├── node-mongo-seeds@3.1.0
+94 silly idealTree ├── normalize-package-data@2.5.0
+94 silly idealTree ├── normalize-path@3.0.0
+94 silly idealTree ├── npm-path@2.0.4
+94 silly idealTree ├── npm-which@3.0.1
+94 silly idealTree ├── nyc@14.1.1
+94 silly idealTree ├── object-inspect@1.12.0
+94 silly idealTree ├── object-keys@1.1.1
+94 silly idealTree ├── object.assign@4.1.0
+94 silly idealTree ├── object.getownpropertydescriptors@2.1.3
+94 silly idealTree ├── on-finished@2.3.0
+94 silly idealTree ├── once@1.4.0
+94 silly idealTree ├── optional-require@1.1.8
+94 silly idealTree ├── os-homedir@1.0.2
+94 silly idealTree ├── p-limit@2.3.0
+94 silly idealTree ├── p-locate@3.0.0
+94 silly idealTree ├── p-try@2.2.0
+94 silly idealTree ├── package-hash@3.0.0
+94 silly idealTree ├── parse-json@4.0.0
+94 silly idealTree ├── parseurl@1.3.3
+94 silly idealTree ├── path-exists@3.0.0
+94 silly idealTree ├── path-is-absolute@1.0.1
+94 silly idealTree ├── path-parse@1.0.7
+94 silly idealTree ├── path-to-regexp@0.1.7
+94 silly idealTree ├─┬ path-type@3.0.0
+94 silly idealTree │ └── pify@3.0.0
+94 silly idealTree ├── picomatch@2.3.1
+94 silly idealTree ├── pify@4.0.1
+94 silly idealTree ├── pkg-dir@3.0.0
+94 silly idealTree ├── process-nextick-args@2.0.1
+94 silly idealTree ├── proxy-addr@2.0.7
+94 silly idealTree ├── prr@1.0.1
+94 silly idealTree ├── pseudomap@1.0.2
+94 silly idealTree ├── qs@6.9.6
+94 silly idealTree ├── randombytes@2.1.0
+94 silly idealTree ├── range-parser@1.2.1
+94 silly idealTree ├── raw-body@2.4.2
+94 silly idealTree ├── read-pkg-up@4.0.0
+94 silly idealTree ├── read-pkg@3.0.0
+94 silly idealTree ├─┬ readable-stream@2.3.7
+94 silly idealTree │ └── safe-buffer@5.1.2
+94 silly idealTree ├── readdirp@3.5.0
+94 silly idealTree ├── rechoir@0.6.2
+94 silly idealTree ├── regexp-clone@1.0.0
+94 silly idealTree ├── release-zalgo@1.0.0
+94 silly idealTree ├─┬ require_optional@1.0.1
+94 silly idealTree │ └── resolve-from@2.0.0
+94 silly idealTree ├── require-at@1.0.6
+94 silly idealTree ├── require-directory@2.1.1
+94 silly idealTree ├── require-main-filename@2.0.0
+94 silly idealTree ├── resolve-from@4.0.0
+94 silly idealTree ├── resolve@1.22.0
+94 silly idealTree ├── rimraf@2.7.1
+94 silly idealTree ├── safe-buffer@5.2.1
+94 silly idealTree ├── safer-buffer@2.1.2
+94 silly idealTree ├── saslprep@1.0.3
+94 silly idealTree ├── semver@5.7.1
+94 silly idealTree ├─┬ send@0.17.2
+94 silly idealTree │ └── ms@2.1.3
+94 silly idealTree ├── serialize-javascript@5.0.1
+94 silly idealTree ├── serve-static@1.14.2
+94 silly idealTree ├── set-blocking@2.0.0
+94 silly idealTree ├── setprototypeof@1.2.0
+94 silly idealTree ├── shell-escape@0.2.0
+94 silly idealTree ├── shelljs@0.8.5
+94 silly idealTree ├── side-channel@1.0.4
+94 silly idealTree ├── sift@13.5.2
+94 silly idealTree ├── signal-exit@3.0.7
+94 silly idealTree ├── sliced@1.0.1
+94 silly idealTree ├── source-map@0.5.7
+94 silly idealTree ├── sparse-bitfield@3.0.3
+94 silly idealTree ├── spawn-wrap@1.4.3
+94 silly idealTree ├── spdx-correct@3.1.1
+94 silly idealTree ├── spdx-exceptions@2.3.0
+94 silly idealTree ├── spdx-expression-parse@3.0.1
+94 silly idealTree ├── spdx-license-ids@3.0.11
+94 silly idealTree ├── spec-xunit-file@0.0.1-3
+94 silly idealTree ├── sprintf-js@1.0.3
+94 silly idealTree ├── statuses@1.5.0
+94 silly idealTree ├─┬ string_decoder@1.1.1
+94 silly idealTree │ └── safe-buffer@5.1.2
+94 silly idealTree ├── string-width@2.1.1
+94 silly idealTree ├── string.prototype.trimend@1.0.4
+94 silly idealTree ├── string.prototype.trimstart@1.0.4
+94 silly idealTree ├── strip-ansi@4.0.0
+94 silly idealTree ├── strip-bom@3.0.0
+94 silly idealTree ├── strip-json-comments@2.0.1
+94 silly idealTree ├─┬ superagent@3.8.3
+94 silly idealTree │ ├── debug@3.2.7
+94 silly idealTree │ └── ms@2.1.3
+94 silly idealTree ├── supports-color@6.0.0
+94 silly idealTree ├── supports-preserve-symlinks-flag@1.0.0
+94 silly idealTree ├── test-exclude@5.2.3
+94 silly idealTree ├── to-fast-properties@2.0.0
+94 silly idealTree ├── to-regex-range@5.0.1
+94 silly idealTree ├── toidentifier@1.0.1
+94 silly idealTree ├── type-detect@1.0.0
+94 silly idealTree ├── type-is@1.6.18
+94 silly idealTree ├── unbox-primitive@1.0.1
+94 silly idealTree ├── unpipe@1.0.0
+94 silly idealTree ├── util-deprecate@1.0.2
+94 silly idealTree ├── utils-merge@1.0.1
+94 silly idealTree ├── uuid@3.4.0
+94 silly idealTree ├── validate-npm-package-license@3.0.4
+94 silly idealTree ├── vary@1.1.2
+94 silly idealTree ├── which-boxed-primitive@1.0.2
+94 silly idealTree ├── which-module@2.0.0
+94 silly idealTree ├── which@1.3.1
+94 silly idealTree ├── wide-align@1.1.3
+94 silly idealTree ├── workerpool@6.1.0
+94 silly idealTree ├─┬ wrap-ansi@5.1.0
+94 silly idealTree │ ├── ansi-regex@4.1.0
+94 silly idealTree │ ├── string-width@3.1.0
+94 silly idealTree │ └── strip-ansi@5.2.0
+94 silly idealTree ├── wrappy@1.0.2
+94 silly idealTree ├── write-file-atomic@2.4.3
+94 silly idealTree ├── xml@1.0.1
+94 silly idealTree ├── y18n@4.0.3
+94 silly idealTree ├── yallist@2.1.2
+94 silly idealTree ├── yargs-parser@13.1.2
+94 silly idealTree ├── yargs-unparser@1.6.0
+94 silly idealTree ├─┬ yargs@13.3.2
+94 silly idealTree │ ├── ansi-regex@4.1.0
+94 silly idealTree │ ├── string-width@3.1.0
+94 silly idealTree │ └── strip-ansi@5.2.0
+94 silly idealTree └── yocto-queue@0.1.0
+95 silly generateActionsToTake Starting
+96 silly install generateActionsToTake
+97 silly generateActionsToTake Finishing
+98 silly diffTrees action count 1
+99 silly diffTrees add node-mongo-seeds@3.1.0
+100 silly decomposeActions action count 8
+101 silly decomposeActions fetch node-mongo-seeds@3.1.0
+102 silly decomposeActions extract node-mongo-seeds@3.1.0
+103 silly decomposeActions test node-mongo-seeds@3.1.0
+104 silly decomposeActions preinstall node-mongo-seeds@3.1.0
+105 silly decomposeActions build node-mongo-seeds@3.1.0
+106 silly decomposeActions install node-mongo-seeds@3.1.0
+107 silly decomposeActions postinstall node-mongo-seeds@3.1.0
+108 silly decomposeActions finalize node-mongo-seeds@3.1.0
+109 silly runTopLevelLifecycles Starting
+110 silly install runPreinstallTopLevelLifecycles
+111 silly preinstall solution-code@1.0.0 /home/vagrant/app/app/solution-code-18969f7f
+112 info lifecycle solution-code@1.0.0~preinstall: solution-code@1.0.0
+113 silly lifecycle solution-code@1.0.0~preinstall: no script for preinstall, continuing
+114 silly executeActions Starting
+115 silly install executeActions
+116 silly doSerial global-install 0
+117 silly doParallel fetch 1
+118 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+119 verbose lock using /home/vagrant/.npm/_locks/staging-7c40a3049ed25df8.lock for /home/vagrant/app/app/node_modules/.staging
+120 silly doParallel extract 1
+121 silly extract node-mongo-seeds@3.1.0
+122 verbose unbuild node_modules/.staging/node-mongo-seeds-75b0aa6a
+123 silly gentlyRm /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a is being purged from base /home/vagrant/app/app
+124 verbose gentlyRm don't care about contents; nuking /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a
+125 verbose tar unpack /home/vagrant/.npm/node-mongo-seeds/3.1.0/package.tgz
+126 verbose tar unpacking to /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a
+127 silly gentlyRm /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a is being purged
+128 verbose gentlyRm don't care about contents; nuking /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a
+129 silly gunzTarPerm modes [ '775', '664' ]
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+132 silly gunzTarPerm extractEntry _config.yml
+133 silly gunzTarPerm modified mode [ '_config.yml', 420, 436 ]
+134 silly gunzTarPerm extractEntry .travis.yml
+135 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+136 silly gunzTarPerm extractEntry CHANGELOG.md
+137 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+138 silly gunzTarPerm extractEntry LICENSE
+139 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+140 silly gunzTarPerm extractEntry README.md
+141 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+142 silly gunzTarPerm extractEntry bin/seed
+143 silly gunzTarPerm modified mode [ 'bin/seed', 493, 509 ]
+144 silly gunzTarPerm extractEntry bin/setup
+145 silly gunzTarPerm modified mode [ 'bin/setup', 493, 509 ]
+146 silly gunzTarPerm extractEntry lib/seed.js
+147 silly gunzTarPerm modified mode [ 'lib/seed.js', 420, 436 ]
+148 silly gunzTarPerm extractEntry lib/setup.js
+149 silly gunzTarPerm modified mode [ 'lib/setup.js', 420, 436 ]
+150 silly gunzTarPerm extractEntry test/empty/.gitignore
+151 silly gunzTarPerm modified mode [ 'test/empty/.gitignore', 420, 436 ]
+152 silly gunzTarPerm extractEntry test/filter/seed.js
+153 silly gunzTarPerm modified mode [ 'test/filter/seed.js', 420, 436 ]
+154 silly gunzTarPerm extractEntry test/filter/seeds/ignore.txt
+155 silly gunzTarPerm modified mode [ 'test/filter/seeds/ignore.txt', 420, 436 ]
+156 silly gunzTarPerm extractEntry test/filter/seeds/testing.json
+157 silly gunzTarPerm modified mode [ 'test/filter/seeds/testing.json', 420, 436 ]
+158 silly gunzTarPerm extractEntry test/invalid/seed.js
+159 silly gunzTarPerm modified mode [ 'test/invalid/seed.js', 420, 436 ]
+160 silly gunzTarPerm extractEntry test/protocol/seed.js
+161 silly gunzTarPerm modified mode [ 'test/protocol/seed.js', 420, 436 ]
+162 silly gunzTarPerm extractEntry test/protocol/seeds/.something
+163 silly gunzTarPerm modified mode [ 'test/protocol/seeds/.something', 420, 436 ]
+164 silly gunzTarPerm extractEntry test/protocol/seeds/array.json
+165 silly gunzTarPerm modified mode [ 'test/protocol/seeds/array.json', 420, 436 ]
+166 silly gunzTarPerm extractEntry test/protocol/seeds/empty.json
+167 silly gunzTarPerm modified mode [ 'test/protocol/seeds/empty.json', 420, 436 ]
+168 silly gunzTarPerm extractEntry test/protocol/seeds/testing.json
+169 silly gunzTarPerm modified mode [ 'test/protocol/seeds/testing.json', 420, 436 ]
+170 silly gunzTarPerm extractEntry test/test.js
+171 silly gunzTarPerm modified mode [ 'test/test.js', 420, 436 ]
+172 silly gunzTarPerm extractEntry test/valid/seed.js
+173 silly gunzTarPerm modified mode [ 'test/valid/seed.js', 420, 436 ]
+174 silly gunzTarPerm extractEntry test/valid/seeds/.something
+175 silly gunzTarPerm modified mode [ 'test/valid/seeds/.something', 420, 436 ]
+176 silly gunzTarPerm extractEntry test/valid/seeds/array.json
+177 silly gunzTarPerm modified mode [ 'test/valid/seeds/array.json', 420, 436 ]
+178 silly gunzTarPerm extractEntry test/valid/seeds/array2.js
+179 silly gunzTarPerm modified mode [ 'test/valid/seeds/array2.js', 420, 436 ]
+180 silly gunzTarPerm extractEntry test/valid/seeds/empty.json
+181 silly gunzTarPerm modified mode [ 'test/valid/seeds/empty.json', 420, 436 ]
+182 silly gunzTarPerm extractEntry test/valid/seeds/empty2.js
+183 silly gunzTarPerm modified mode [ 'test/valid/seeds/empty2.js', 420, 436 ]
+184 silly gunzTarPerm extractEntry test/valid/seeds/testing.json
+185 silly gunzTarPerm modified mode [ 'test/valid/seeds/testing.json', 420, 436 ]
+186 silly gunzTarPerm extractEntry test/valid/seeds/testing2.js
+187 silly gunzTarPerm modified mode [ 'test/valid/seeds/testing2.js', 420, 436 ]
+188 silly gunzTarPerm extractEntry test/validExtended/seed.js
+189 silly gunzTarPerm modified mode [ 'test/validExtended/seed.js', 420, 436 ]
+190 silly gunzTarPerm extractEntry test/validExtended/seeds/extended.json
+191 silly gunzTarPerm modified mode [ 'test/validExtended/seeds/extended.json', 420, 436 ]
+192 silly gentlyRm /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a/node_modules is being purged
+193 verbose gentlyRm don't care about contents; nuking /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a/node_modules
+194 silly doParallel preinstall 1
+195 silly preinstall node-mongo-seeds@3.1.0 /home/vagrant/app/app/node_modules/.staging/node-mongo-seeds-75b0aa6a
+196 info lifecycle node-mongo-seeds@3.1.0~preinstall: node-mongo-seeds@3.1.0
+197 silly lifecycle node-mongo-seeds@3.1.0~preinstall: no script for preinstall, continuing
+198 silly doReverseSerial remove 0
+199 silly doSerial move 0
+200 silly doSerial finalize 1
+201 silly finalize /home/vagrant/app/app/node_modules/node-mongo-seeds
+202 silly doSerial build 1
+203 silly build node-mongo-seeds@3.1.0
+204 info linkStuff node-mongo-seeds@3.1.0
+205 silly linkStuff node-mongo-seeds@3.1.0 has /home/vagrant/app/app/node_modules as its parent node_modules
+206 verbose linkBins node-mongo-seeds@3.1.0
+207 verbose link bins [ { seed: './bin/seed', 'seed-setup': './bin/setup' },
+207 verbose link bins   '/home/vagrant/app/app/node_modules/.bin',
+207 verbose link bins   false ]
+208 verbose linkMans node-mongo-seeds@3.1.0
+209 silly gentlyRm /home/vagrant/app/app/node_modules/.bin/seed is being purged
+210 verbose gentlyRm don't care about contents; nuking /home/vagrant/app/app/node_modules/.bin/seed
+211 silly gentlyRm /home/vagrant/app/app/node_modules/.bin/seed-setup is being purged
+212 verbose gentlyRm don't care about contents; nuking /home/vagrant/app/app/node_modules/.bin/seed-setup
+213 verbose unlock done using /home/vagrant/.npm/_locks/staging-7c40a3049ed25df8.lock for /home/vagrant/app/app/node_modules/.staging
+214 silly rollbackFailedOptional Starting
+215 silly rollbackFailedOptional Finishing
+216 silly runTopLevelLifecycles Finishing
+217 silly install printInstalled
+218 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.1 (node_modules/chokidar/node_modules/fsevents):
+219 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+220 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+220 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+220 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+220 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+221 warn solution-code@1.0.0 No repository field.
+222 verbose If you need help, you may report this error at:
+222 verbose     <https://github.com/npm/npm/issues>
+223 verbose stack Error: EPROTO: protocol error, symlink '../node-mongo-seeds/bin/setup' -> '/home/vagrant/app/app/node_modules/.bin/seed-setup'
+223 verbose stack     at Error (native)
+224 verbose cwd /home/vagrant/app/app
+225 error Linux 4.4.0-210-generic
+226 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+227 error node v6.17.1
+228 error npm  v3.10.10
+229 error path ../node-mongo-seeds/bin/setup
+230 error code EPROTO
+231 error errno -71
+232 error syscall symlink
+233 error EPROTO: protocol error, symlink '../node-mongo-seeds/bin/setup' -> '/home/vagrant/app/app/node_modules/.bin/seed-setup'
+234 error If you need help, you may report this error at:
+234 error     <https://github.com/npm/npm/issues>
+235 verbose exit [ -71, true ]
